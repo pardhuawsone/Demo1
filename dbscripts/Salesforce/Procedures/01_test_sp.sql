@@ -6,7 +6,7 @@ create or replace procedure myprocedure2()
   returns varchar
   language sql
   as
-  $$
+ '
     -- Snowflake Scripting code
     declare
       radius_of_circle float;
@@ -16,5 +16,5 @@ create or replace procedure myprocedure2()
       area_of_circle := pi() * radius_of_circle * radius_of_circle;
       return area_of_circle;
     end;
-  $$
+  '
   ;
