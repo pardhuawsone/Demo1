@@ -2,7 +2,7 @@
 --changeset vasu:200 labels:New SP context:example-context
 --comment: example comment
 USE SCHEMA TEST_SCHEMA;
-create or replace procedure myprocedure()
+create or replace procedure myprocedure2()
   returns varchar
   language sql
   as
