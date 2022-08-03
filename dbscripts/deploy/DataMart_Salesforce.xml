@@ -12,4 +12,5 @@
 	<include file="dbscripts/Salesforce/Tables/Table22.sql"/>
 	<include file="dbscripts/Salesforce/Tables/Table31.sql"/>
 	<include file="dbscripts/Salesforce/Tables/Table40.sql"/>
+	<include file="dbscripts/Salesforce/Views/View01.sql"/>
 </databaseChangeLog>
