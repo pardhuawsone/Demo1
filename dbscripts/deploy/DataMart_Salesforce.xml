@@ -14,5 +14,5 @@
 	<include file="dbscripts/Salesforce/Tables/Table40.sql"/>
 	<include file="dbscripts/Salesforce/Views/View01.sql"/>
 	<include file="dbscripts/Salesforce/Procedures/01_test_sp.sql"/>
-	<include file="dbscripts/Salesforce/Procedures/01_copy.sql"/>
+	<include file="dbscripts/Salesforce/CopyCommands/01_copy.sql"/>
 </databaseChangeLog>
