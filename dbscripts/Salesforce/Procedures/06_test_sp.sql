@@ -18,7 +18,7 @@ create or replace procedure TEST_SCHEMA.myprocedure8()
   $$
   ;
 
-  --changeset vasu:294 labels:New SP context:example-context endDelimiter:"\$\$" runOnChange="true"
+  --changeset vasu:296 labels:New SP context:example-context endDelimiter:"\$\$" runOnChange="true"
 --comment: example comment
 --USE SCHEMA TEST_SCHEMA;
 create or replace procedure TEST_SCHEMA.myprocedure8()
