@@ -1,5 +1,5 @@
 --liquibase formatted sql
---changeset vasu:210 labels:New SP context:example-context  endDelimiter:"\$\$"
+--changeset vasu:210 labels:New SP context:example-context  endDelimiter:"\$\$"  runOnChange="true"
 --comment: example comment
 USE SCHEMA TEST_SCHEMA;
 create or replace procedure myprocedure2()
