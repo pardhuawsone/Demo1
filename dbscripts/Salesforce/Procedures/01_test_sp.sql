@@ -1,12 +1,12 @@
 --liquibase formatted sql
---changeset vasu:200 labels:New SP context:example-context
+--changeset vasu:210 labels:New SP context:example-context  endDelimiter:"\$\$"
 --comment: example comment
 USE SCHEMA TEST_SCHEMA;
 create or replace procedure myprocedure2()
   returns varchar
   language sql
   as
- '
+ $$
     -- Snowflake Scripting code
     declare
       radius_of_circle float;
@@ -16,5 +16,5 @@ create or replace procedure myprocedure2()
       area_of_circle := pi() * radius_of_circle * radius_of_circle;
       return area_of_circle;
     end;
-  '
+  $$
   ;
