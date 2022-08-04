@@ -19,5 +19,6 @@
 	<include file="dbscripts/Salesforce/Procedures/03_test_sp.sql"/>
 	<include file="dbscripts/Salesforce/Procedures/04_test_sp.sql"/>
 	<include file="dbscripts/Salesforce/Procedures/05_test_sp.sql"/>
+	<include file="dbscripts/Salesforce/Procedures/06_test_sp.sql"/>
 	<include file="dbscripts/Salesforce/CopyCommands/0001_Copy.sql"/>
 </databaseChangeLog>
