@@ -12,10 +12,12 @@
 	<include file="dbscripts/Salesforce/Tables/Table22.sql"/>
 	<include file="dbscripts/Salesforce/Tables/Table31.sql"/>
 	<include file="dbscripts/Salesforce/Tables/Table40.sql"/>
+	<include file="dbscripts/Salesforce/Tables/Table42.sql"/>
 	<include file="dbscripts/Salesforce/Views/View01.sql"/>
 	<include file="dbscripts/Salesforce/Procedures/01_test_sp.sql"/>
 	<include file="dbscripts/Salesforce/Procedures/02_test_sp.sql"/>
 	<include file="dbscripts/Salesforce/Procedures/03_test_sp.sql"/>
 	<include file="dbscripts/Salesforce/Procedures/04_test_sp.sql"/>
+	<include file="dbscripts/Salesforce/Procedures/05_test_sp.sql"/>
 	<include file="dbscripts/Salesforce/CopyCommands/0001_Copy.sql"/>
 </databaseChangeLog>
